@@ -8,7 +8,7 @@ Holder_Name VARCHAR(50) NOT NULL,
 Branch VARCHAR(30) NOT NULL,
 Balance DECIMAL(12,2) NOT NULL CHECK (Balance >= 0),
 Account_Type VARCHAR(20) NOT NULL
-) ENGINE=InnoDB;
+)
 
 INSERT INTO BankAccount VALUES
 (201,'Anand','Chennai',50000,'Savings'),
